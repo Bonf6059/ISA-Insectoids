@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
-<!-- Mammoth -->
-	
+
+<!-- tunneler -->
+
   <ThingDef ParentName="BaseInsect">
-    <defName>ISA_Tunneler</defName>
+    <defName>Tunneler</defName>
     <label>tunneler</label>
     <description>PLACEHOLDER</description>
     <statBases>
@@ -78,7 +78,7 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>ISA_Tunneler</defName>
+    <defName>Tunneler</defName>
     <label>tunneler</label>
     <race>Tunneler</race>
     <combatPower>150</combatPower>
@@ -126,7 +126,7 @@
 <!-- Plasma Mammoth -->
 
   <ThingDef ParentName="BaseInsect">
-    <defName>ISA_PlasmaMammoth</defName>
+    <defName>PlasmaMammoth</defName>
     <label>plasma mammoth</label>
     <description>PLACEHOLDER</description>
     <statBases>
@@ -229,7 +229,7 @@
 
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>ISA_PlasmaMammoth</defName>
+    <defName>PlasmaMammoth</defName>
     <label>plasma mammoth</label>
     <race>PlasmaMammoth</race>
     <combatPower>150</combatPower>
@@ -274,5 +274,4 @@
     </lifeStages>
   </PawnKindDef>
 
-	
 </Defs>
