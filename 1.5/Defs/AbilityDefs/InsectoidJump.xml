@@ -2,7 +2,7 @@
 <Defs>
 
     <AbilityDef>
-        <defName>PaleHive_InsectJump</defName>
+        <defName>ISA_InsectJump</defName>
         <label>insect jump</label>
         <description>todo.</description>
         <iconPath>UI/Abilities/Longjump</iconPath>
