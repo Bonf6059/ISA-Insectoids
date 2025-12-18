@@ -29,7 +29,7 @@
       <li MayRequire="Ludeon.RimWorld.Anomaly">Entities</li>
     </permanentEnemyToEveryoneExcept>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-    <allowedArrivalTemperatureRange>0~45</allowedArrivalTemperatureRange>
+    <allowedArrivalTemperatureRange>-45~0</allowedArrivalTemperatureRange>
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>1000</configurationListOrderPriority>
   </FactionDef>
