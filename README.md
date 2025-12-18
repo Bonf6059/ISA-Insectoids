@@ -1,4 +1,4 @@
-# ISA Medieval flavor pack
+# ISA Insectoids
 
 Just a bunch of patches and addons to various mods and some medieval stuff.
 
