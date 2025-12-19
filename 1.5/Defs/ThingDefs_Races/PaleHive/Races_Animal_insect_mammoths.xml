@@ -46,7 +46,7 @@
       <baseBodySize>3.9</baseBodySize>
       <baseHealthScale>3.6</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>ISA_Chitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
       <wildness>0.4</wildness>
       <trainability>Advanced</trainability>
@@ -188,7 +188,7 @@
       <baseHealthScale>3.6</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
       <lifeExpectancy>6</lifeExpectancy>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>ISA_Chitin</leatherDef>
       <wildness>0.4</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
