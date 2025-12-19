@@ -48,7 +48,7 @@
       <baseHealthScale>0.35</baseHealthScale>
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>10</lifeExpectancy>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>ISA_Chitin</leatherDef>
       <wildness>0.2</wildness>
       <trainability>Intermediate</trainability>
       <lifeStageAges>
@@ -185,7 +185,7 @@
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>10</lifeExpectancy>
       <wildness>0.2</wildness>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>ISA_Chitin</leatherDef>
       <trainability>Intermediate</trainability>
       <lifeStageAges>
         <li>
@@ -330,7 +330,7 @@
     <baseHealthScale>0.35</baseHealthScale>
     <useMeatFrom>Megaspider</useMeatFrom>
     <lifeExpectancy>10</lifeExpectancy>
-    <leatherDef>PPHHYY_Chitin</leatherDef>
+    <leatherDef>ISA_Chitin</leatherDef>
     <wildness>0.2</wildness>
     <trainability>Intermediate</trainability>
     <lifeStageAges>
