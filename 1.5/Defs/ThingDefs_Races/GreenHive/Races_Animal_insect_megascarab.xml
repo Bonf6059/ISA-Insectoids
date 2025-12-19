@@ -4,7 +4,7 @@
   <!-- hunter scarab -->
 
   <ThingDef ParentName="BaseInsect">
-    <defName>HunterScarab</defName>
+    <defName>ISA_HunterScarab</defName>
     <label>hunter scarab</label>
     <description>PLACEHOLDER</description>
     <statBases>
@@ -85,7 +85,7 @@
   </ThingDef>
   
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>HunterScarab</defName>
+    <defName>ISA_HunterScarab</defName>
     <label>hunter scarab</label>
     <race>HunterScarab</race>
     <combatPower>40</combatPower>
@@ -135,7 +135,7 @@
 
 <!-- megascarab -->
 
-  <ThingDef ParentName="BaseInsect">
+<!--  <ThingDef ParentName="BaseInsect">
     <defName>Megascarab</defName>
     <label>megascarab</label>
     <description>A large, genetically-engineered beetle. Once the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
@@ -259,12 +259,12 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-  </PawnKindDef>
+  </PawnKindDef>	-->
 
 <!-- Acid Scarab -->
 
 <ThingDef ParentName="BaseInsect">
-  <defName>AcidScarab</defName>
+  <defName>ISA_AcidScarab</defName>
   <label>acid scarab</label>
   <description>PLACEHOLDER</description>
   <statBases>
@@ -319,7 +319,7 @@
         <accuracyMedium>0</accuracyMedium>
         <accuracyLong>0</accuracyLong>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>AcidScarab_Shot</defaultProjectile>
+        <defaultProjectile>ISA_AcidScarab_Shot</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <burstShotCount>1</burstShotCount>
         <minRange>1</minRange>
@@ -372,7 +372,7 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-  <defName>AcidScarab_Shot</defName>
+  <defName>ISA_AcidScarab_Shot</defName>
   <label>little spit</label>
   <graphicData>
     <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -388,7 +388,7 @@
 </ThingDef>
 
 <PawnKindDef ParentName="AnimalKindBase">
-  <defName>AcidScarab</defName>
+  <defName>ISA_AcidScarab</defName>
   <label>acid scarab</label>
   <race>AcidScarab</race>
   <combatPower>40</combatPower>
