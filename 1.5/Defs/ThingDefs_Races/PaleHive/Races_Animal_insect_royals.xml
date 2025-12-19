@@ -18,7 +18,7 @@
     <uiIconScale>1.15</uiIconScale>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>Insectoid_Egg</eggUnfertilizedDef>
+        <eggUnfertilizedDef>ISA_Insectoid_Egg</eggUnfertilizedDef>
         <eggLayIntervalDays>0.5</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
