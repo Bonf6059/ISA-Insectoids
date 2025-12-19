@@ -158,6 +158,9 @@
       </dessicatedBodyGraphicData>
     </li>
   </lifeStages>
+  <abilities>
+    <li>ISA_InsectJump</li>
+  </abilities>
 </PawnKindDef>
 
 
