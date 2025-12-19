@@ -3,8 +3,8 @@
 
   <!-- pale spelopede -->
 
-  <ThingDef ParentName="BaseInsect">
-    <defName>PaleSpelopede</defName>
+  <ThingDef ParentName="BaseInsect" Name="ISA_Spelopede">
+    <defName>ISA_PaleSpelopede</defName>
     <label>pale spelopede</label>
     <description>A medium-sized bioengineered insectoid the size of a sheep. The pale spelopede is the middle caste of a hive, taking care of most work tasks as well as fighting with its digging claws. It's dangerous in combat, but slow on open ground.</description>
     <statBases>
@@ -96,7 +96,7 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>PaleSpelopede</defName>
+    <defName>ISA_PaleSpelopede</defName>
     <label>pale spelopede</label>
     <race>PaleSpelopede</race>
     <combatPower>75</combatPower>
@@ -142,8 +142,8 @@
 
   <!-- silk spelopede -->
 
-  <ThingDef ParentName="BaseInsect">
-    <defName>PaleSilkSpelopede</defName>
+  <ThingDef ParentName="BaseInsect" Name="ISA_SilkSpelopede">
+    <defName>ISA_PaleSilkSpelopede</defName>
     <label>pale silk spelopede</label>
     <description>PLACEHOLDER</description>
     <statBases>
@@ -157,7 +157,7 @@
     <uiIconScale>1.15</uiIconScale>
     <comps>
       <li Class="CompProperties_Shearable">
-        <woolDef>Silk</woolDef>
+        <woolDef>ISA_Silk</woolDef>
         <shearIntervalDays>10</shearIntervalDays>
         <woolAmount>25</woolAmount>
       </li>
@@ -225,7 +225,7 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>PaleSilkSpelopede</defName>
+    <defName>ISA_PaleSilkSpelopede</defName>
     <label>pale silk spelopede</label>
     <race>PaleSilkSpelopede</race>
     <combatPower>10</combatPower>
@@ -271,8 +271,8 @@
 
   <!-- hunter spelopede -->
 
-  <ThingDef ParentName="BaseInsect">
-    <defName>PaleHunterSpelopede</defName>
+  <ThingDef ParentName="BaseInsect" Name="ISA_HunterSpelopede">
+    <defName>ISA_PaleHunterSpelopede</defName>
     <label>pale hunter spelopede</label>
     <description>This spelopede is the cast of the hunter, those bit smaller than their common cousin are fast and quick hitters, that are hard to damage due their agility. Their main purpose is to hunt down everyone whos foolish enough to run.</description>
     <statBases>
@@ -354,7 +354,7 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>PaleHunterSpelopede</defName>
+    <defName>ISA_PaleHunterSpelopede</defName>
     <label>pale hunter spelopede</label>
     <race>PaleHunterSpelopede</race>
     <combatPower>75</combatPower>
@@ -397,7 +397,7 @@
       </li>
     </lifeStages>
     <abilities>
-      <li>PaleHive_InsectJump</li>
+      <li>ISA_InsectJump</li>
     </abilities>
   </PawnKindDef>
 
