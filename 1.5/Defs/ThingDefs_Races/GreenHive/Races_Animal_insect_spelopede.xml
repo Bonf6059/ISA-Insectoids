@@ -3,96 +3,10 @@
 
   <!-- spelopede -->
 
-  <ThingDef ParentName="BaseInsect">
+  <ThingDef ParentName="ISA_Spelopede">
     <defName>ISA_Spelopede</defName>
     <label>spelopede</label>
     <description>A medium-sized bioengineered insectoid the size of a sheep. The pale spelopede is the middle caste of a hive, taking care of most work tasks as well as fighting with its digging claws. It's dangerous in combat, but slow on open ground.</description>
-    <statBases>
-      <MoveSpeed>3.80</MoveSpeed>
-      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
-      <MarketValue>200</MarketValue>
-      <LeatherAmount>40</LeatherAmount>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
-      <MeleeDodgeChance>25</MeleeDodgeChance>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Spawner">
-        <thingToSpawn>CeraAlba</thingToSpawn>
-        <spawnCount>10</spawnCount>
-        <spawnIntervalRange>90000</spawnIntervalRange>
-        <spawnMaxAdjacent>100</spawnMaxAdjacent>
-        <spawnForbidden>false</spawnForbidden>
-        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
-        <saveKeysPrefix>jelly</saveKeysPrefix>
-      </li>
-    </comps>
-    <uiIconScale>1.1</uiIconScale>
-    <tools>
-      <li>
-        <label>head claw</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>7</power>
-        <cooldownTime>2.1</cooldownTime>
-        <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
-        <armorPenetration>0.30</armorPenetration>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>7</power>
-        <cooldownTime>2.1</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
-        <armorPenetration>0.30</armorPenetration>
-      </li>
-    </tools>
-    <race>
-      <body>BeetleLikeWithClaw</body>
-      <baseHungerRate>0.25</baseHungerRate>
-      <baseBodySize>1.2</baseBodySize>
-      <baseHealthScale>1.7</baseHealthScale>
-      <useMeatFrom>Megaspider</useMeatFrom>
-      <leatherDef>InsectoidChitin</leatherDef>
-      <lifeExpectancy>6</lifeExpectancy>
-      <wildness>0.3</wildness>
-      <trainability>Advanced</trainability>
-      <lifeStageAges>
-        <li>
-          <def>EusocialInsectLarva</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>EusocialInsectJuvenile</def>
-          <minAge>0.035</minAge>
-        </li>
-        <li>
-          <def>EusocialInsectAdult</def>
-          <minAge>0.2</minAge>
-          <soundWounded>Pawn_Spelopede_Pain</soundWounded>
-          <soundDeath>Pawn_Spelopede_Death</soundDeath>
-          <soundCall>Pawn_Spelopede_Call</soundCall>
-          <soundAngry>Pawn_Spelopede_Angry</soundAngry>
-        </li>
-      </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-      <headPosPerRotation>
-        <li>(0.0, 0, 0.14)</li>
-        <li>(0.07, 0, 0.08)</li>
-        <li>(0.0, 0, -0.12)</li>
-        <li>(-0.07, 0, 0.08)</li>
-      </headPosPerRotation>
-    </race>
-    <tradeTags>
-      <li>AnimalInsect</li>
-    </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
@@ -142,90 +56,10 @@
 
   <!-- silk spelopede -->
 
-  <ThingDef ParentName="BaseInsect">
+  <ThingDef ParentName="ISA_SilkSpelopede">
     <defName>ISA_SilkSpelopede</defName>
     <label>silk spelopede</label>
     <description>PLACEHOLDER</description>
-    <statBases>
-      <MoveSpeed>2.50</MoveSpeed>
-      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
-      <MarketValue>500</MarketValue>
-      <LeatherAmount>40</LeatherAmount>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
-    </statBases>
-    <uiIconScale>1.15</uiIconScale>
-      <comps>
-    <li Class="CompProperties_Spawner">
-        <thingToSpawn>InsectoidSilk</thingToSpawn>
-        <spawnCount>25</spawnCount>
-        <spawnIntervalRange>300000</spawnIntervalRange>
-        <spawnMaxAdjacent>50</spawnMaxAdjacent>
-        <spawnForbidden>false</spawnForbidden>
-        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
-        <saveKeysPrefix>jelly</saveKeysPrefix>
-      </li>
-  </comps>
-    <tools>
-      <li>
-        <label>head claw</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>5</power>
-        <cooldownTime>2.6</cooldownTime>
-        <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
-        <armorPenetration>0.05</armorPenetration>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>3</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
-        <armorPenetration>0.05</armorPenetration>
-      </li>
-    </tools>
-    <race>
-      <packAnimal>false</packAnimal>
-      <body>BeetleLikeWithClaw</body>
-      <baseHungerRate>0.35</baseHungerRate>
-      <baseBodySize>1.2</baseBodySize>
-      <baseHealthScale>0.7</baseHealthScale>
-      <meatLabel>insect meat</meatLabel>
-      <leatherDef>InsectoidChitin</leatherDef>
-      <lifeExpectancy>6</lifeExpectancy>
-      <wildness>0.4</wildness>
-      <trainability>None</trainability>
-      <lifeStageAges>
-        <li>
-          <def>EusocialInsectLarva</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>EusocialInsectJuvenile</def>
-          <minAge>0.035</minAge>
-        </li>
-        <li>
-          <def>EusocialInsectAdult</def>
-          <minAge>0.2</minAge>
-          <soundWounded>Pawn_Spelopede_Pain</soundWounded>
-          <soundDeath>Pawn_Spelopede_Death</soundDeath>
-          <soundCall>Pawn_Spelopede_Call</soundCall>
-          <soundAngry>Pawn_Spelopede_Angry</soundAngry>
-        </li>
-      </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-    </race>
-    <tradeTags>
-      <li>AnimalInsect</li>
-    </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
@@ -275,84 +109,10 @@
 
   <!-- hunter spelopede -->
 
-  <ThingDef ParentName="BaseInsect">
+  <ThingDef ParentName="ISA_HunterSpelopede">
     <defName>ISA_HunterSpelopede</defName>
     <label>hunter spelopede</label>
     <description>This spelopede is the cast of the hunter, those bit smaller than their common cousin are fast and quick hitters, that are hard to damage due their agility. Their main purpose is to hunt down everyone whos foolish enough to run.</description>
-    <statBases>
-      <MoveSpeed>4.2</MoveSpeed>
-      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
-      <MarketValue>200</MarketValue>
-      <LeatherAmount>40</LeatherAmount>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
-    </statBases>
-    <uiIconScale>1.1</uiIconScale>
-    <tools>
-      <li>
-        <label>head claw</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>6</power>
-        <cooldownTime>0.8</cooldownTime>
-        <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
-        <armorPenetration>0.30</armorPenetration>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>6</power>
-        <cooldownTime>0.8</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
-        <armorPenetration>0.30</armorPenetration>
-      </li>
-    </tools>
-    <race>
-      <body>BeetleLikeWithClaw</body>
-      <baseHungerRate>0.25</baseHungerRate>
-      <baseBodySize>1.2</baseBodySize>
-      <baseHealthScale>0.8</baseHealthScale>
-      <useMeatFrom>Megaspider</useMeatFrom>
-      <lifeExpectancy>6</lifeExpectancy>
-      <leatherDef>InsectoidChitin</leatherDef>
-      <wildness>0.3</wildness>
-      <trainability>Advanced</trainability>
-      <lifeStageAges>
-        <li>
-          <def>EusocialInsectLarva</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>EusocialInsectJuvenile</def>
-          <minAge>0.035</minAge>
-        </li>
-        <li>
-          <def>EusocialInsectAdult</def>
-          <minAge>0.2</minAge>
-          <soundWounded>Pawn_Spelopede_Pain</soundWounded>
-          <soundDeath>Pawn_Spelopede_Death</soundDeath>
-          <soundCall>Pawn_Spelopede_Call</soundCall>
-          <soundAngry>Pawn_Spelopede_Angry</soundAngry>
-        </li>
-      </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-      <headPosPerRotation>
-        <li>(0.0, 0, 0.14)</li>
-        <li>(0.07, 0, 0.08)</li>
-        <li>(0.0, 0, -0.12)</li>
-        <li>(-0.07, 0, 0.08)</li>
-      </headPosPerRotation>
-    </race>
-    <tradeTags>
-      <li>AnimalInsect</li>
-    </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
@@ -398,6 +158,9 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
+    <abilities>
+      <li>ISA_InsectJump</li>
+    </abilities>
   </PawnKindDef>
 
 </Defs>
