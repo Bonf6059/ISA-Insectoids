@@ -2,7 +2,7 @@
 <Defs>
 
   <MVCF.ModDef>
-    <defName>pphhyy_AcidAttacks</defName>
+    <defName>ISA_AcidAttacks</defName>
     <label>acid insectoids</label>
     <description>Adding ranged attacks for acid creatures that need them</description>
     <ActivateFeatures>
@@ -14,8 +14,8 @@
   
 <!-- pale megaspider -->
 
-  <ThingDef ParentName="BaseInsect">
-    <defName>PaleMegaspider</defName>
+  <ThingDef ParentName="BaseInsect" Name="ISA_Megaspider">
+    <defName>ISA_PaleMegaspider</defName>
     <label>pale megaspider</label>
     <description>Not actually a spider, the megaspider is a genetically-engineered giant insectoid the size of a small bear. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long ripper-blades make it deadly at close quarters. It is, however, quite slow in open terrain.</description>
     <statBases>
@@ -89,7 +89,7 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>PaleMegaspider</defName>
+    <defName>ISA_PaleMegaspider</defName>
     <label>pale megaspider</label>
     <race>PaleMegaspider</race>
     <combatPower>150</combatPower>
@@ -135,8 +135,8 @@
 
 <!-- nursery -->
 
-  <ThingDef ParentName="BaseInsect">
-    <defName>PaleNurserySpider</defName>
+  <ThingDef ParentName="BaseInsect" Name="ISA_NurserySpider">
+    <defName>ISA_PaleNurserySpider</defName>
     <label>pale nursery spider</label>
     <description>Not actually a spider, but the part of spider cast of the hive, its only purpose is to create insect jelly to feed other larvae, sustaining growing population of the hive colony.</description>
     <statBases>
@@ -222,7 +222,7 @@
 
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>PaleNurserySpider</defName>
+    <defName>ISA_PaleNurserySpider</defName>
     <label>pale nursery spider</label>
     <race>PaleNurserySpider</race>
     <combatPower>20</combatPower>
@@ -268,8 +268,8 @@
   
 <!-- acid spider -->
   
-  <ThingDef ParentName="BaseInsect">
-    <defName>PaleAcidSpider</defName>
+  <ThingDef ParentName="BaseInsect" Name="ISA_AcidSpider">
+    <defName>ISA_PaleAcidSpider</defName>
     <label>pale acid spider</label>
     <description>Megaspider cast member, bio-engineered insectoid soldier with acid filled sack on its abdomen that can use it to spit acid right at its pray.</description>
     <statBases>
@@ -313,7 +313,7 @@
           <accuracyMedium>0</accuracyMedium>
           <accuracyLong>0</accuracyLong>
           <hasStandardCommand>true</hasStandardCommand>
-          <defaultProjectile>Acid_Aoe</defaultProjectile>
+          <defaultProjectile>ISA_Acid_Aoe</defaultProjectile>
           <forcedMissRadius>1.9</forcedMissRadius>
           <warmupTime>2.3</warmupTime>
           <burstShotCount>1</burstShotCount>
@@ -361,7 +361,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseGrenadeProjectile"> 
-    <defName>Acid_Aoe</defName>
+    <defName>ISA_Acid_</defName>
     <label>acid splash attack</label>
     <thingClass>Projectile_Explosive</thingClass>
     <graphicData>
@@ -371,22 +371,21 @@
     </graphicData>
     <projectile>
       <explosionRadius>1.9</explosionRadius >
-      <damageDef>Acid_Aoe</damageDef>
+      <damageDef>ISA_Acid_Aoe</damageDef>
       <!-- Use default damage from explosion def -->
       <explosionDelay>0</explosionDelay>
     </projectile>
   </ThingDef>
 
   <DamageDef ParentName="Bomb">
-  <defName>Acid_Aoe</defName>
+  <defName>ISA_Acid_Aoe</defName>
   <label>acid splash attack</label>
   <defaultDamage>12</defaultDamage>
   <soundExplosion>Explosion_Vaporize</soundExplosion>
   </DamageDef>
 
-
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>PaleAcidSpider</defName>
+    <defName>ISA_PaleAcidSpider</defName>
     <label>pale acid spider</label>
     <race>PaleAcidSpider</race>
     <combatPower>150</combatPower>
@@ -432,8 +431,8 @@
   
 <!-- warrior spider -->
 
-  <ThingDef ParentName="BaseInsect">
-    <defName>PaleWarriorSpider</defName>
+  <ThingDef ParentName="BaseInsect" Name="ISA_WarriorSpider">
+    <defName>ISA_PaleWarriorSpider</defName>
     <label>pale warrior spider</label>
     <description>Bigger version of megaspider whos only purpose is to deffend the hive, its big, beefy and very dangerous close combat, but less common than megaspider itself.</description>
     <statBases>
