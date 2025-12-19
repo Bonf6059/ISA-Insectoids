@@ -3,8 +3,8 @@
 
 <!-- queen -->
 
-  <ThingDef ParentName="BaseInsect">
-    <defName>PaleQueen</defName>
+  <ThingDef ParentName="BaseInsect" Name="ISA_Queen">
+    <defName>ISA_PaleQueen</defName>
     <label>pale queen</label>
     <description>queen.</description>
     <statBases>
@@ -131,8 +131,8 @@
   
 <!-- titan -->
 
-  <ThingDef ParentName="BaseInsect">
-    <defName>PaleTitan</defName>
+  <ThingDef ParentName="BaseInsect" Name="ISA_Titan">
+    <defName>ISA_PaleTitan</defName>
     <label>pale titan</label>
     <description>PLACEHOLDER</description>
     <statBases>
@@ -255,7 +255,7 @@
 <!-- Prince Consort -->
 
 <ThingDef ParentName="BaseInsect">
-  <defName>PalePrinceConsort</defName>
+  <defName>ISA_PalePrinceConsort</defName>
   <label>pale prince consort</label>
   <description>PLACEHOLDER</description>
   <statBases>
@@ -373,7 +373,7 @@
     </li>
   </lifeStages>
   <abilities>
-    <li>PaleHive_InsectJump</li>
+    <li>ISA_InsectJump</li>
   </abilities>
 </PawnKindDef>
 
