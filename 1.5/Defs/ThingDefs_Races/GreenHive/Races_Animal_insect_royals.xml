@@ -4,7 +4,7 @@
 <!-- queen -->
 
   <ThingDef ParentName="BaseInsect">
-    <defName>Queen</defName>
+    <defName>ISA_Queen</defName>
     <label>queen</label>
     <description>queen.</description>
     <statBases>
@@ -85,7 +85,7 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Queen</defName>
+    <defName>ISA_Queen</defName>
     <label>queen</label>
     <race>Queen</race>
     <combatPower>150</combatPower>
@@ -132,7 +132,7 @@
 <!-- titan -->
 
   <ThingDef ParentName="BaseInsect">
-    <defName>Titan</defName>
+    <defName>ISA_Titan</defName>
     <label>titan</label>
     <description>PLACEHOLDER</description>
     <statBases>
@@ -208,7 +208,7 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Titan</defName>
+    <defName>ISA_Titan</defName>
     <label>titan</label>
     <race>Titan</race>
     <combatPower>600</combatPower>
@@ -255,7 +255,7 @@
 <!-- Prince Consort -->
 
 <ThingDef ParentName="BaseInsect">
-  <defName>PrinceConsort</defName>
+  <defName>ISA_PrinceConsort</defName>
   <label>prince consort</label>
   <description>PLACEHOLDER</description>
   <statBases>
@@ -329,7 +329,7 @@
 </ThingDef>
 
 <PawnKindDef ParentName="AnimalKindBase">
-  <defName>PrinceConsort</defName>
+  <defName>ISA_PrinceConsort</defName>
   <label>prince consort</label>
   <race>PrinceConsort</race>
   <combatPower>150</combatPower>
