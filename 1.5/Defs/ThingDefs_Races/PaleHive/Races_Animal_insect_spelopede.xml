@@ -52,7 +52,7 @@
         <armorPenetration>0.30</armorPenetration>
       </li>
     </tools>
-    <race>ISA_
+    <race>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.25</baseHungerRate>
       <baseBodySize>1.2</baseBodySize>
@@ -187,7 +187,7 @@
         <armorPenetration>0.05</armorPenetration>
       </li>
     </tools>
-    <race>ISA_
+    <race>
       <packAnimal>false</packAnimal>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
@@ -309,7 +309,7 @@
         <armorPenetration>0.30</armorPenetration>
       </li>
     </tools>
-    <race>ISA_
+    <race>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.25</baseHungerRate>
       <baseBodySize>1.2</baseBodySize>
