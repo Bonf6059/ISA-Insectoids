@@ -31,11 +31,6 @@
     
             <li Class="ScenPart_StartingAnimal">
               <def>StartingAnimal</def>
-              <count>1</count>
-              <animalKind>PaleQueen</animalKind>
-            </li>
-            <li Class="ScenPart_StartingAnimal">
-              <def>StartingAnimal</def>
               <count>2</count>
               <animalKind>PaleSpelopede</animalKind>
             </li>
@@ -114,11 +109,6 @@
   
           <!-- Player starting stuff -->
   
-          <li Class="ScenPart_StartingAnimal">
-            <def>StartingAnimal</def>
-            <count>1</count>
-            <animalKind>ISA_Queen</animalKind>
-          </li>
           <li Class="ScenPart_StartingAnimal">
             <def>StartingAnimal</def>
             <count>2</count>
