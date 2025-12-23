@@ -123,7 +123,7 @@
 <PawnKindDef ParentName="AnimalKindBase">
   <defName>ISA_AcidScarab</defName>
   <label>acid scarab</label>
-  <race>AcidScarab</race>
+  <race>ISA_AcidScarab</race>
   <combatPower>40</combatPower>
   <canArriveManhunter>false</canArriveManhunter>
   <ecoSystemWeight>0.15</ecoSystemWeight>
