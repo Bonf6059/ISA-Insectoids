@@ -345,7 +345,7 @@
         <li>(0.0, 0, -0.12)</li>
         <li>(-0.07, 0, 0.08)</li>
       </headPosPerRotation>
-      <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
+  <!--    <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>  -->
       <thinkTreeMain>PPhhyy_FarmerAnimalThinkTree</thinkTreeMain>
     </race>
     <tradeTags>
