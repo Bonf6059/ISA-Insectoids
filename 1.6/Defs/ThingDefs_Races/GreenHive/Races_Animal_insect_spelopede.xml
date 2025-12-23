@@ -3,7 +3,7 @@
 
   <!-- spelopede -->
 
-  <ThingDef ParentName="ISA_Spelopede">
+<!--  <ThingDef ParentName="ISA_Spelopede">
     <defName>ISA_Spelopede</defName>
     <label>spelopede</label>
     <description>A medium-sized bioengineered insectoid the size of a sheep. The pale spelopede is the middle caste of a hive, taking care of most work tasks as well as fighting with its digging claws. It's dangerous in combat, but slow on open ground.</description>
@@ -52,7 +52,7 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-  </PawnKindDef>
+  </PawnKindDef>  -->
 
   <!-- silk spelopede -->
 
