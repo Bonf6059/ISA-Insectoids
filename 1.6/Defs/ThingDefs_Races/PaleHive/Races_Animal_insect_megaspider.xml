@@ -25,7 +25,7 @@
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
-	  <wildness>0.4</wildness>
+	  <Wildness>0.4</Wildness>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <tools>
@@ -146,7 +146,7 @@
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
-      <wildness>0.4</wildness>
+      <Wildness>0.4</Wildness>
     </statBases>
 	<comps>
 	  <li Class="CompProperties_Spawner">
@@ -279,7 +279,7 @@
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
-      <wildness>0.4</wildness>
+      <Wildness>0.4</Wildness>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <tools>
@@ -442,7 +442,7 @@
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.24</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
-      <wildness>0.4</wildness>
+      <Wildness>0.4</Wildness>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <tools>
