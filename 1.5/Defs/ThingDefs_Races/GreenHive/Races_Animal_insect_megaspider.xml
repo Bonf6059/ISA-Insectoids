@@ -66,7 +66,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_NurserySpider</defName>
     <label>nursery spider</label>
-    <race>NurserySpider</race>
+    <race>ISA_NurserySpider</race>
     <combatPower>20</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
@@ -119,7 +119,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_AcidSpider</defName>
     <label>acid spider</label>
-    <race>AcidSpider</race>
+    <race>ISA_AcidSpider</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
@@ -172,7 +172,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_WarriorSpider</defName>
     <label>warrior spider</label>
-    <race>WarriorSpider</race>
+    <race>ISA_WarriorSpider</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
