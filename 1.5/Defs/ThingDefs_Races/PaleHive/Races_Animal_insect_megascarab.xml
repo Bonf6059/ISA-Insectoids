@@ -42,7 +42,7 @@
         <armorPenetration>0.25</armorPenetration>
       </li>
     </tools>
-    <race>
+    <race>ISA_
       <body>BeetleLike</body>
       <baseBodySize>0.2</baseBodySize>
       <baseHungerRate>0.10</baseHungerRate>
@@ -89,7 +89,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_PaleHunterScarab</defName>
     <label>pale hunter scarab</label>
-    <race>PaleHunterScarab</race>
+    <race>ISA_PaleHunterScarab</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.15</ecoSystemWeight>
@@ -178,7 +178,7 @@
         <armorPenetration>0.25</armorPenetration>
       </li>
     </tools>
-    <race>
+    <race>ISA_
       <body>BeetleLike</body>
       <baseBodySize>0.2</baseBodySize>
       <baseHungerRate>0.10</baseHungerRate>
@@ -224,7 +224,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_PaleMegascarab</defName>
     <label>pale megascarab</label>
-    <race>PaleMegascarab</race>
+    <race>ISA_PaleMegascarab</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.15</ecoSystemWeight>
@@ -324,7 +324,7 @@
         <muzzleFlashScale>0</muzzleFlashScale>  
     </li> 
  </verbs>
-  <race>
+  <race>ISA_
     <body>BeetleLike</body>
     <baseBodySize>0.2</baseBodySize>
     <baseHungerRate>0.10</baseHungerRate>
@@ -385,7 +385,7 @@
 <PawnKindDef ParentName="AnimalKindBase">
   <defName>ISA_PaleAcidScarab</defName>
   <label>pale acid scarab</label>
-  <race>PaleAcidScarab</race>
+  <race>ISA_PaleAcidScarab</race>
   <combatPower>40</combatPower>
   <canArriveManhunter>false</canArriveManhunter>
   <ecoSystemWeight>0.15</ecoSystemWeight>
