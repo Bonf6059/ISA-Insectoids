@@ -12,7 +12,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_HunterScarab</defName>
     <label>hunter scarab</label>
-    <race>HunterScarab</race>
+    <race>ISA_HunterScarab</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.15</ecoSystemWeight>
