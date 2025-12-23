@@ -12,7 +12,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_Tunneler</defName>
     <label>tunneler</label>
-    <race>Tunneler</race>
+    <race>ISA_Tunneler</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
