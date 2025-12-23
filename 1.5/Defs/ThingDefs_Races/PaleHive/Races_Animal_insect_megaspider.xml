@@ -25,6 +25,7 @@
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
+	  <wildness>0.4</wildness>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <tools>
@@ -59,7 +60,6 @@
       <meatLabel>insect meat</meatLabel>
       <lifeExpectancy>6</lifeExpectancy>
       <leatherDef>ISA_Chitin</leatherDef>
-      <wildness>0.4</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
         <li>
@@ -146,6 +146,7 @@
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
+      <wildness>0.4</wildness>
     </statBases>
 	<comps>
 	  <li Class="CompProperties_Spawner">
@@ -191,7 +192,6 @@
       <meatLabel>insect meat</meatLabel>
       <leatherDef>ISA_Chitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
-      <wildness>0.4</wildness>
       <trainability>None</trainability>
       <lifeStageAges>
         <li>
@@ -279,6 +279,7 @@
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
+      <wildness>0.4</wildness>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <tools>
@@ -331,7 +332,6 @@
       <meatLabel>insect meat</meatLabel>
       <lifeExpectancy>6</lifeExpectancy>
       <leatherDef>ISA_Chitin</leatherDef>
-      <wildness>0.4</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
         <li>
@@ -442,6 +442,7 @@
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.24</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
+      <wildness>0.4</wildness>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <tools>
@@ -476,7 +477,6 @@
       <meatLabel>insect meat</meatLabel>
       <leatherDef>ISA_Chitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
-      <wildness>0.4</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
         <li>
