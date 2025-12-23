@@ -159,7 +159,7 @@
     </li>
   </lifeStages>
   <abilities>
-    <li>ISA_InsectJump</li>
+    <li>PaleHive_InsectJump</li>
   </abilities>
 </PawnKindDef>
 
