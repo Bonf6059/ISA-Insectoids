@@ -42,7 +42,7 @@
         <armorPenetration>0.25</armorPenetration>
       </li>
     </tools>
-    <race>ISA_
+    <race>
       <body>BeetleLike</body>
       <baseBodySize>0.2</baseBodySize>
       <baseHungerRate>0.10</baseHungerRate>
@@ -178,7 +178,7 @@
         <armorPenetration>0.25</armorPenetration>
       </li>
     </tools>
-    <race>ISA_
+    <race>
       <body>BeetleLike</body>
       <baseBodySize>0.2</baseBodySize>
       <baseHungerRate>0.10</baseHungerRate>
@@ -324,7 +324,7 @@
         <muzzleFlashScale>0</muzzleFlashScale>  
     </li> 
  </verbs>
-  <race>ISA_
+  <race>
     <body>BeetleLike</body>
     <baseBodySize>0.2</baseBodySize>
     <baseHungerRate>0.10</baseHungerRate>
