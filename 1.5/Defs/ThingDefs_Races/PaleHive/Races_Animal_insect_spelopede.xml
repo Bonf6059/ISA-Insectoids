@@ -15,6 +15,7 @@
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <MeleeDodgeChance>25</MeleeDodgeChance>
+      <wildness>0.3</wildness>
     </statBases>
     <comps>
       <li Class="CompProperties_Spawner">
@@ -59,7 +60,6 @@
       <useMeatFrom>Megaspider</useMeatFrom>
       <leatherDef>ISA_Chitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
-      <wildness>0.3</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
         <li>
@@ -153,6 +153,7 @@
       <LeatherAmount>40</LeatherAmount>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
+      <wildness>0.4</wildness>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <comps>
@@ -195,7 +196,6 @@
       <meatLabel>insect meat</meatLabel>
       <leatherDef>ISA_Chitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
-      <wildness>0.4</wildness>
       <trainability>None</trainability>
       <lifeStageAges>
         <li>
@@ -282,6 +282,7 @@
       <LeatherAmount>40</LeatherAmount>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
+      <wildness>0.3</wildness>
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <tools>
@@ -316,7 +317,6 @@
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>6</lifeExpectancy>
       <leatherDef>ISA_Chitin</leatherDef>
-      <wildness>0.3</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
         <li>
