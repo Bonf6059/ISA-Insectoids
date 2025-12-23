@@ -52,7 +52,7 @@
         <armorPenetration>0.30</armorPenetration>
       </li>
     </tools>
-    <race>
+    <race>ISA_
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.25</baseHungerRate>
       <baseBodySize>1.2</baseBodySize>
@@ -98,7 +98,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_PaleSpelopede</defName>
     <label>pale spelopede</label>
-    <race>PaleSpelopede</race>
+    <race>ISA_PaleSpelopede</race>
     <combatPower>75</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.35</ecoSystemWeight>
@@ -187,7 +187,7 @@
         <armorPenetration>0.05</armorPenetration>
       </li>
     </tools>
-    <race>
+    <race>ISA_
       <packAnimal>false</packAnimal>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
@@ -227,7 +227,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_PaleSilkSpelopede</defName>
     <label>pale silk spelopede</label>
-    <race>PaleSilkSpelopede</race>
+    <race>ISA_PaleSilkSpelopede</race>
     <combatPower>10</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.10</ecoSystemWeight>
@@ -309,7 +309,7 @@
         <armorPenetration>0.30</armorPenetration>
       </li>
     </tools>
-    <race>
+    <race>ISA_
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.25</baseHungerRate>
       <baseBodySize>1.2</baseBodySize>
@@ -356,7 +356,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_PaleHunterSpelopede</defName>
     <label>pale hunter spelopede</label>
-    <race>PaleHunterSpelopede</race>
+    <race>ISA_PaleHunterSpelopede</race>
     <combatPower>75</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.35</ecoSystemWeight>
