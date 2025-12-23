@@ -135,7 +135,7 @@
       <li Class="CompProperties_SpawnerPawn">
         <spawnablePawnKinds>
           <li>Megaspider</li>
-          <li>ISA_Spelopede</li>
+          <li>Spelopede</li>
 		  <li>ISA_HunterScarab</li>
         </spawnablePawnKinds>
         <lordJob>LordJob_DefendAndExpandHive</lordJob>
