@@ -1,0 +1,10 @@
+D:\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PPhhyyInsectoidWork\obj\Debug\net48\PPhhyyInsectoidWork.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PPhhyyInsectoidWork\obj\Debug\net48\PPhhyyInsectoidWork.GeneratedMSBuildEditorConfig.editorconfig
+D:\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PPhhyyInsectoidWork\obj\Debug\net48\PPhhyyInsectoidWork.AssemblyInfoInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PPhhyyInsectoidWork\obj\Debug\net48\PPhhyyInsectoidWork.AssemblyInfo.cs
+D:\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PPhhyyInsectoidWork\obj\Debug\net48\PPhhyyInsectoidWork.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PPhhyyInsectoidWork\obj\Debug\net48\PPhhyyInsectoidWork.sourcelink.json
+D:\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PPhhyyInsectoidWork\obj\Debug\net48\PPhhyyInsectoidWork.dll
+D:\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PPhhyyInsectoidWork\obj\Debug\net48\PPhhyyInsectoidWork.pdb
+D:\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PPhhyyInsectoidWork.dll
+D:\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PPhhyyInsectoidWork.pdb

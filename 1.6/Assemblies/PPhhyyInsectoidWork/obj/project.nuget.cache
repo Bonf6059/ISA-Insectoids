@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "i/tpXVaaXylvE+Dgxc6Qr0UaLq1tlQKHET5OxFLnq7nYuulfjmbF6jq0ZT8vfDopRFbZbWAEpGtplAQWmu/aYg==",
+  "success": true,
+  "projectFilePath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\ThePaleHive\\1.5\\Assemblies\\PPhhyyInsectoidWork\\PPhhyyInsectoidWork.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\David\\.nuget\\packages\\krafs.rimworld.ref\\1.5.4104\\krafs.rimworld.ref.1.5.4104.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\lib.harmony\\2.3.3\\lib.harmony.2.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
