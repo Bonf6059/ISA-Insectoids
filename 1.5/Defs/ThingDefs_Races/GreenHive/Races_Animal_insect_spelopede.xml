@@ -12,7 +12,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_Spelopede</defName>
     <label>spelopede</label>
-    <race>pphhyy_Spelopede</race>
+    <race>ISA_Spelopede</race>
     <combatPower>75</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.35</ecoSystemWeight>
@@ -65,7 +65,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_SilkSpelopede</defName>
     <label>silk spelopede</label>
-    <race>pphhyy_SilkSpelopede</race>
+    <race>ISA_SilkSpelopede</race>
     <combatPower>10</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.10</ecoSystemWeight>
@@ -118,7 +118,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_HunterSpelopede</defName>
     <label>hunter spelopede</label>
-    <race>pphhyy_HunterSpelopede</race>
+    <race>ISA_HunterSpelopede</race>
     <combatPower>75</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.35</ecoSystemWeight>
