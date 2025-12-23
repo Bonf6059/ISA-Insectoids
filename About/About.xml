@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>pphhyy ThePaleHive</name>
-	<packageId>pphhyy.ThePaleHive</packageId>
-	<author>pphhyy.</author>
+	<name>[ISA] Insectoids</name>
+	<packageId>ISA.Insectoids</packageId>
+	<author>Bonf6059</author>
 	<supportedVersions>
       <li>1.5</li>
 	</supportedVersions>
-	<description>ThePaleHive.
-	</description>
+	<description>ThePaleHive.</description>
 	<modDependencies>  			
   </modDependencies>
 	
