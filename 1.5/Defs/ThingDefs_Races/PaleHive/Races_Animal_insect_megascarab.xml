@@ -15,6 +15,7 @@
       <MarketValue>100</MarketValue>
       <LeatherAmount>40</LeatherAmount>
 	  <MeleeDodgeChance>25</MeleeDodgeChance>
+      <wildness>0.2</wildness>
     </statBases>
     <uiIconScale>2</uiIconScale>
     <tools>
@@ -49,7 +50,6 @@
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>10</lifeExpectancy>
       <leatherDef>ISA_Chitin</leatherDef>
-      <wildness>0.2</wildness>
       <trainability>Intermediate</trainability>
       <lifeStageAges>
         <li>
@@ -151,6 +151,7 @@
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <MarketValue>100</MarketValue>
       <LeatherAmount>40</LeatherAmount>
+      <wildness>0.2</wildness>
     </statBases>
     <uiIconScale>2</uiIconScale>
     <tools>
@@ -184,7 +185,6 @@
       <baseHealthScale>0.35</baseHealthScale>
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>10</lifeExpectancy>
-      <wildness>0.2</wildness>
       <leatherDef>ISA_Chitin</leatherDef>
       <trainability>Intermediate</trainability>
       <lifeStageAges>
@@ -280,6 +280,7 @@
     <ComfyTemperatureMin>0</ComfyTemperatureMin>
     <MarketValue>100</MarketValue>
     <LeatherAmount>40</LeatherAmount>
+    <wildness>0.2</wildness>
   </statBases>
   <uiIconScale>2</uiIconScale>
   <tools>
@@ -331,7 +332,6 @@
     <useMeatFrom>Megaspider</useMeatFrom>
     <lifeExpectancy>10</lifeExpectancy>
     <leatherDef>ISA_Chitin</leatherDef>
-    <wildness>0.2</wildness>
     <trainability>Intermediate</trainability>
     <lifeStageAges>
       <li>
