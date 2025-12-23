@@ -48,7 +48,7 @@
         <armorPenetration>0.50</armorPenetration>
       </li>
     </tools>
-    <race>
+    <race>ISA_
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
       <baseBodySize>3.9</baseBodySize>
@@ -87,7 +87,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PaleQueen</defName>
     <label>pale queen</label>
-    <race>PaleQueen</race>
+    <race>ISA_PaleQueen</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
@@ -171,7 +171,7 @@
         <armorPenetration>0.75</armorPenetration>
       </li>
     </tools>
-    <race>
+    <race>ISA_
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>1.8</baseHungerRate>
       <baseBodySize>4.1</baseBodySize>
@@ -210,7 +210,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PaleTitan</defName>
     <label>pale titan</label>
-    <race>PaleTitan</race>
+    <race>ISA_PaleTitan</race>
     <combatPower>600</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>1</ecoSystemWeight>
@@ -292,7 +292,7 @@
       <armorPenetration>0.50</armorPenetration>
     </li>
   </tools>
-  <race>
+  <race>ISA_
     <body>BeetleLikeWithClaw</body>
     <baseHungerRate>0.35</baseHungerRate>
     <baseBodySize>3.9</baseBodySize>
@@ -332,7 +332,7 @@
 <PawnKindDef ParentName="AnimalKindBase">
   <defName>PalePrinceConsort</defName>
   <label>pale prince consort</label>
-  <race>PalePrinceConsort</race>
+  <race>ISA_PalePrinceConsort</race>
   <combatPower>150</combatPower>
   <canArriveManhunter>false</canArriveManhunter>
   <ecoSystemWeight>0.50</ecoSystemWeight>
