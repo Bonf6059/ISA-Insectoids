@@ -35,9 +35,9 @@
       <li Class="CompProperties_WakeUpDormant" />
       <li Class="CompProperties_SpawnerPawn">
         <spawnablePawnKinds>
-          <li>PaleMegaspider</li>
-          <li>PaleSpelopede</li>
-		  <li>PaleHunterScarab</li>
+          <li>ISA_PaleMegaspider</li>
+          <li>ISA_PaleSpelopede</li>
+		  <li>ISA_PaleHunterScarab</li>
         </spawnablePawnKinds>
         <lordJob>LordJob_DefendAndExpandHive</lordJob>
         <spawnSound>Hive_Spawn</spawnSound>
@@ -134,9 +134,9 @@
       <li Class="CompProperties_WakeUpDormant" />
       <li Class="CompProperties_SpawnerPawn">
         <spawnablePawnKinds>
-          <li>Megaspider</li>
-          <li>Spelopede</li>
-		      <li>HunterScarab</li>
+          <li>ISA_Megaspider</li>
+          <li>ISA_Spelopede</li>
+		  <li>ISA_HunterScarab</li>
         </spawnablePawnKinds>
         <lordJob>LordJob_DefendAndExpandHive</lordJob>
         <spawnSound>Hive_Spawn</spawnSound>
