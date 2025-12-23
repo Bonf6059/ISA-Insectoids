@@ -14,6 +14,7 @@
       <LeatherAmount>24</LeatherAmount>
       <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.24</ArmorRating_Sharp>
+      <wildness>0.4</wildness>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <comps>
@@ -55,7 +56,6 @@
       <meatLabel>insect meat</meatLabel>
       <leatherDef>ISA_Chitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
-      <wildness>0.4</wildness>
       <trainability>Intermediate</trainability>
       <lifeStageAges>
         <li>
@@ -144,6 +144,7 @@
       <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.64</ArmorRating_Sharp>
 	  <ArmorRating_Heat>0.30</ArmorRating_Heat>
+      <wildness>0.985</wildness>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <tools>
@@ -178,7 +179,6 @@
       <meatLabel>insect meat</meatLabel>
       <leatherDef>ISA_Chitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
-      <wildness>0.985</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
         <li>
@@ -265,6 +265,7 @@
     <LeatherAmount>24</LeatherAmount>
     <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
     <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+	<wildness>0.4</wildness>
   </statBases>
   <uiIconScale>1.15</uiIconScale>
   <tools>
@@ -299,7 +300,6 @@
     <meatLabel>insect meat</meatLabel>
     <leatherDef>ISA_Chitin</leatherDef>
     <lifeExpectancy>6</lifeExpectancy>
-    <wildness>0.4</wildness>
     <trainability>Intermediate</trainability>
     <lifeStageAges>
       <li>
