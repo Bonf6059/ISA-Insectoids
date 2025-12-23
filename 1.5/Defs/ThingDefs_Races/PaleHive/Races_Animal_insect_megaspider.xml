@@ -52,7 +52,7 @@
         <armorPenetration>0.35</armorPenetration>
       </li>
     </tools>
-    <race>ISA_ISA_
+    <race>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
       <baseBodySize>2.6</baseBodySize>
@@ -91,7 +91,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_PaleMegaspider</defName>
     <label>pale megaspider</label>
-    <race>ISA_ISA_PaleMegaspider</race>
+    <race>ISA_PaleMegaspider</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
@@ -183,7 +183,7 @@
         <armorPenetration>0.25</armorPenetration>
       </li>
     </tools>
-    <race>ISA_ISA_
+    <race>
 	  <packAnimal>false</packAnimal>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
@@ -224,7 +224,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_PaleNurserySpider</defName>
     <label>pale nursery spider</label>
-    <race>ISA_ISA_PaleNurserySpider</race>
+    <race>ISA_PaleNurserySpider</race>
     <combatPower>20</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
@@ -324,7 +324,7 @@
           <muzzleFlashScale>0</muzzleFlashScale>  
       </li> 
    </verbs>
-    <race>ISA_ISA_
+    <race>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
       <baseBodySize>2.6</baseBodySize>
@@ -387,7 +387,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_PaleAcidSpider</defName>
     <label>pale acid spider</label>
-    <race>ISA_ISA_PaleAcidSpider</race>
+    <race>ISA_PaleAcidSpider</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
@@ -469,7 +469,7 @@
         <armorPenetration>0.50</armorPenetration>
       </li>
     </tools>
-    <race>ISA_ISA_
+    <race>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
       <baseBodySize>2.6</baseBodySize>
@@ -508,7 +508,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PaleWarriorSpider</defName>
     <label>pale warrior spider</label>
-    <race>ISA_ISA_PaleWarriorSpider</race>
+    <race>ISA_PaleWarriorSpider</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
