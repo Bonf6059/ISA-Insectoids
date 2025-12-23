@@ -18,14 +18,14 @@
       <wildness>0.3</wildness>
     </statBases>
     <comps>
-      <li Class="CompProperties_Spawner">
+   <!--   <li Class="CompProperties_Spawner">
         <thingToSpawn>CeraAlba</thingToSpawn>
         <spawnCount>10</spawnCount>
         <spawnIntervalRange>90000</spawnIntervalRange>
         <spawnMaxAdjacent>100</spawnMaxAdjacent>
         <spawnForbidden>false</spawnForbidden>
         <saveKeysPrefix>jelly</saveKeysPrefix>
-      </li>
+      </li>  -->
     </comps>
     <uiIconScale>1.1</uiIconScale>
     <tools>
