@@ -41,7 +41,7 @@
         <armorPenetration>0.50</armorPenetration>
       </li>
     </tools>
-    <race>ISA_
+    <race>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
       <baseBodySize>3.9</baseBodySize>
