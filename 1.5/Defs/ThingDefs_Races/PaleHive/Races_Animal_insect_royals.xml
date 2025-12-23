@@ -254,7 +254,7 @@
 
 <!-- Prince Consort -->
 
-<ThingDef ParentName="BaseInsect">
+<ThingDef ParentName="BaseInsect" Name="ISA_PrinceConsort">
   <defName>ISA_PalePrinceConsort</defName>
   <label>pale prince consort</label>
   <description>PLACEHOLDER</description>
