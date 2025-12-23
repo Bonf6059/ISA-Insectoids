@@ -109,7 +109,7 @@
 
 <!-- Prince Consort -->
 
-<ThingDef ParentName="ISA_PalePrinceConsort">
+<ThingDef ParentName="ISA_PrinceConsort">
   <defName>ISA_PrinceConsort</defName>
   <label>prince consort</label>
   <description>PLACEHOLDER</description>
