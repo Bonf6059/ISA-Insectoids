@@ -41,7 +41,7 @@
         <armorPenetration>0.50</armorPenetration>
       </li>
     </tools>
-    <race>
+    <race>ISA_
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
       <baseBodySize>3.9</baseBodySize>
@@ -81,7 +81,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_PaleTunneler</defName>
     <label>pale tunneler</label>
-    <race>PaleTunneler</race>
+    <race>ISA_PaleTunneler</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
@@ -182,7 +182,7 @@
           <muzzleFlashScale>0</muzzleFlashScale>  
       </li> 
    </verbs>
-    <race>
+    <race>ISA_
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
       <baseBodySize>3.9</baseBodySize>
@@ -221,7 +221,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_PalePlasmaMammoth</defName>
     <label>pale plasma mammoth</label>
-    <race>PalePlasmaMammoth</race>
+    <race>ISA_PalePlasmaMammoth</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
