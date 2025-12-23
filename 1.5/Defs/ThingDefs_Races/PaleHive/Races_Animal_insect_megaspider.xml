@@ -361,7 +361,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseGrenadeProjectile"> 
-    <defName>ISA_Acid_</defName>
+    <defName>ISA_Acid_Aoe</defName>
     <label>acid splash attack</label>
     <thingClass>Projectile_Explosive</thingClass>
     <graphicData>
