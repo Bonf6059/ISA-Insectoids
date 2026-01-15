@@ -20,7 +20,8 @@
     <description>Not actually a spider, the megaspider is a genetically-engineered giant insectoid the size of a small bear. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long ripper-blades make it deadly at close quarters. It is, however, quite slow in open terrain.</description>
     <statBases>
       <MoveSpeed>4.4</MoveSpeed>
-      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>0</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
@@ -141,7 +142,8 @@
     <description>Not actually a spider, but the part of spider cast of the hive, its only purpose is to create insect jelly to feed other larvae, sustaining growing population of the hive colony.</description>
     <statBases>
       <MoveSpeed>2.3</MoveSpeed>
-      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>0</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
@@ -274,7 +276,8 @@
     <description>Megaspider cast member, bio-engineered insectoid soldier with acid filled sack on its abdomen that can use it to spit acid right at its pray.</description>
     <statBases>
       <MoveSpeed>3.9</MoveSpeed>
-      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>0</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
@@ -437,7 +440,8 @@
     <description>Bigger version of megaspider whos only purpose is to deffend the hive, its big, beefy and very dangerous close combat, but less common than megaspider itself.</description>
     <statBases>
       <MoveSpeed>3.9</MoveSpeed>
-      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>0</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.24</ArmorRating_Sharp>
