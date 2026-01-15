@@ -11,7 +11,8 @@
       <MoveSpeed>5.4</MoveSpeed>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.57</ArmorRating_Sharp>
-      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>0</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
       <MarketValue>100</MarketValue>
       <LeatherAmount>40</LeatherAmount>
 	  <MeleeDodgeChance>25</MeleeDodgeChance>
@@ -148,7 +149,8 @@
       <MoveSpeed>4</MoveSpeed>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.57</ArmorRating_Sharp>
-      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>0</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
       <MarketValue>100</MarketValue>
       <LeatherAmount>40</LeatherAmount>
       <Wildness>0.2</Wildness>
@@ -277,7 +279,8 @@
     <MoveSpeed>4</MoveSpeed>
     <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
     <ArmorRating_Sharp>0.57</ArmorRating_Sharp>
-    <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+    <ComfyTemperatureMax>0</ComfyTemperatureMax>
+    <ComfyTemperatureMin>-60</ComfyTemperatureMin>
     <MarketValue>100</MarketValue>
     <LeatherAmount>40</LeatherAmount>
     <Wildness>0.2</Wildness>
