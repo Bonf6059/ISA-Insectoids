@@ -6,25 +6,22 @@
 <!--	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="ExtremeDesert"]/wildAnimals</xpath>
 		<value>
-			<ISA_Alp>0.04</ISA_Alp>
-			<ISA_LindwurmCave>0.01</ISA_LindwurmCave>
-    </value>
+			
+    	</value>
 	</Operation>  -->
 	
 <!--	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="Desert"]/wildAnimals</xpath>
 		<value>
-			<ISA_Alp>0.04</ISA_Alp>
-			<ISA_LindwurmCave>0.01</ISA_LindwurmCave>
-    </value>
+			
+    	</value>
 	</Operation>  -->
 	
 <!--	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="AridShrubland"]/wildAnimals</xpath>
 		<value>
-			<ISA_Alp>0.04</ISA_Alp>
-			<ISA_LindwurmCave>0.01</ISA_LindwurmCave>
-    </value>
+			
+    	</value>
 	</Operation>  -->
 	
 <!-- Warm Biomes -->
@@ -32,37 +29,29 @@
 <!--	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="TropicalRainforest"]/wildAnimals</xpath>
 		<value>
-			<ISA_Alp>0.04</ISA_Alp>
-			<ISA_LindwurmForest>0.01</ISA_LindwurmForest>
-    </value>
+			
+    	</value>
 	</Operation>  
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="TropicalSwamp"]/wildAnimals</xpath>
 		<value>
-			<ISA_Alp>0.04</ISA_Alp>
-			<ISA_UnholdSwamp>0.01</ISA_UnholdSwamp>
-			<ISA_LindwurmForest>0.01</ISA_LindwurmForest>
-    </value>
+		
+		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="TemperateSwamp"]/wildAnimals</xpath>
 		<value>
-			<ISA_Alp>0.04</ISA_Alp>
-			<ISA_UnholdSwamp>0.01</ISA_UnholdSwamp>
-			<ISA_LindwurmForest>0.01</ISA_LindwurmForest>
-    </value>
+
+   		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
-      <ISA_Alp>0.04</ISA_Alp>
-		  <ISA_Direwolf>0.04</ISA_Direwolf>
-			<ISA_UnholdPlain>0.01</ISA_UnholdPlain>
-			<ISA_LindwurmForest>0.01</ISA_LindwurmForest>
-	  </value>
+
+	  	</value>
 	</Operation>  -->
 
 <!-- Cold Biomes -->
