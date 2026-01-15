@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- Hot Biomes -->
+
+<!--	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="ExtremeDesert"]/wildAnimals</xpath>
+		<value>
+			<ISA_Alp>0.04</ISA_Alp>
+			<ISA_LindwurmCave>0.01</ISA_LindwurmCave>
+    </value>
+	</Operation>  -->
+	
+<!--	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Desert"]/wildAnimals</xpath>
+		<value>
+			<ISA_Alp>0.04</ISA_Alp>
+			<ISA_LindwurmCave>0.01</ISA_LindwurmCave>
+    </value>
+	</Operation>  -->
+	
+<!--	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AridShrubland"]/wildAnimals</xpath>
+		<value>
+			<ISA_Alp>0.04</ISA_Alp>
+			<ISA_LindwurmCave>0.01</ISA_LindwurmCave>
+    </value>
+	</Operation>  -->
+	
+<!-- Warm Biomes -->
+	
+<!--	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="TropicalRainforest"]/wildAnimals</xpath>
+		<value>
+			<ISA_Alp>0.04</ISA_Alp>
+			<ISA_LindwurmForest>0.01</ISA_LindwurmForest>
+    </value>
+	</Operation>  
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="TropicalSwamp"]/wildAnimals</xpath>
+		<value>
+			<ISA_Alp>0.04</ISA_Alp>
+			<ISA_UnholdSwamp>0.01</ISA_UnholdSwamp>
+			<ISA_LindwurmForest>0.01</ISA_LindwurmForest>
+    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="TemperateSwamp"]/wildAnimals</xpath>
+		<value>
+			<ISA_Alp>0.04</ISA_Alp>
+			<ISA_UnholdSwamp>0.01</ISA_UnholdSwamp>
+			<ISA_LindwurmForest>0.01</ISA_LindwurmForest>
+    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="TemperateForest"]/wildAnimals</xpath>
+		<value>
+      <ISA_Alp>0.04</ISA_Alp>
+		  <ISA_Direwolf>0.04</ISA_Direwolf>
+			<ISA_UnholdPlain>0.01</ISA_UnholdPlain>
+			<ISA_LindwurmForest>0.01</ISA_LindwurmForest>
+	  </value>
+	</Operation>  -->
+
+<!-- Cold Biomes -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BorealForest"]/wildAnimals</xpath>
+		<value>
+      <!-- Pale Tunneler-->
+			<ISA_PaleTunneler>0.04</ISA_PaleTunneler>
+
+      <!-- Pale Scarabs -->
+			<ISA_PaleHunterScarab>0.04</ISA_PaleHunterScarab>
+      <ISA_PaleMegascarab>0.04</ISA_PaleMegascarab>
+      <!-- <ISA_PaleAcidScarab>0.04</ISA_PaleAcidScarab> -->
+
+      <!-- Pale Megaspider -->
+      <ISA_PaleMegaspider>0.04</ISA_PaleMegaspider>
+      <!-- <ISA_PaleNurserySpider>0.04</ISA_PaleNurserySpider> -->
+      <!-- <ISA_PaleAcidSpider>0.04</ISA_PaleAcidSpider> -->
+      <ISA_PaleWarriorSpider>0.04</ISA_PaleWarriorSpider>
+      
+      <!-- Pale Spelopede -->
+      <ISA_PaleSpelopede>0.04</ISA_PaleSpelopede>
+      <!-- <ISA_PaleSilkSpelopede>0.04</ISA_PaleSilkSpelopede> -->
+      <!-- <ISA_PaleHunterSpelopede>0.04</ISA_PaleHunterSpelopede> -->
+    </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Tundra"]/wildAnimals</xpath>
+		<value>
+      <!-- Pale Tunneler-->
+			<ISA_PaleTunneler>0.04</ISA_PaleTunneler>
+
+      <!-- Pale Scarabs -->
+			<ISA_PaleHunterScarab>0.04</ISA_PaleHunterScarab>
+      <ISA_PaleMegascarab>0.04</ISA_PaleMegascarab>
+      <!-- <ISA_PaleAcidScarab>0.04</ISA_PaleAcidScarab> -->
+
+      <!-- Pale Megaspider -->
+      <ISA_PaleMegaspider>0.04</ISA_PaleMegaspider>
+      <!-- <ISA_PaleNurserySpider>0.04</ISA_PaleNurserySpider> -->
+      <!-- <ISA_PaleAcidSpider>0.04</ISA_PaleAcidSpider> -->
+      <ISA_PaleWarriorSpider>0.04</ISA_PaleWarriorSpider>
+      
+      <!-- Pale Spelopede -->
+      <ISA_PaleSpelopede>0.04</ISA_PaleSpelopede>
+      <!-- <ISA_PaleSilkSpelopede>0.04</ISA_PaleSilkSpelopede> -->
+      <!-- <ISA_PaleHunterSpelopede>0.04</ISA_PaleHunterSpelopede> -->
+    </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="ColdBog"]/wildAnimals</xpath>
+		<value>
+			<!-- Pale Tunneler-->
+			<ISA_PaleTunneler>0.04</ISA_PaleTunneler>
+
+      <!-- Pale Scarabs -->
+			<ISA_PaleHunterScarab>0.04</ISA_PaleHunterScarab>
+      <ISA_PaleMegascarab>0.04</ISA_PaleMegascarab>
+      <!-- <ISA_PaleAcidScarab>0.04</ISA_PaleAcidScarab> -->
+
+      <!-- Pale Megaspider -->
+      <ISA_PaleMegaspider>0.04</ISA_PaleMegaspider>
+      <!-- <ISA_PaleNurserySpider>0.04</ISA_PaleNurserySpider> -->
+      <!-- <ISA_PaleAcidSpider>0.04</ISA_PaleAcidSpider> -->
+      <ISA_PaleWarriorSpider>0.04</ISA_PaleWarriorSpider>
+      
+      <!-- Pale Spelopede -->
+      <ISA_PaleSpelopede>0.04</ISA_PaleSpelopede>
+      <!-- <ISA_PaleSilkSpelopede>0.04</ISA_PaleSilkSpelopede> -->
+      <!-- <ISA_PaleHunterSpelopede>0.04</ISA_PaleHunterSpelopede> -->
+    </value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="IceSheet"]/wildAnimals</xpath>
+		<value>
+			<!-- Pale Tunneler-->
+			<ISA_PaleTunneler>0.04</ISA_PaleTunneler>
+
+      <!-- Pale Scarabs -->
+			<ISA_PaleHunterScarab>0.04</ISA_PaleHunterScarab>
+      <ISA_PaleMegascarab>0.04</ISA_PaleMegascarab>
+      <!-- <ISA_PaleAcidScarab>0.04</ISA_PaleAcidScarab> -->
+
+      <!-- Pale Megaspider -->
+      <ISA_PaleMegaspider>0.04</ISA_PaleMegaspider>
+      <!-- <ISA_PaleNurserySpider>0.04</ISA_PaleNurserySpider> -->
+      <!-- <ISA_PaleAcidSpider>0.04</ISA_PaleAcidSpider> -->
+      <ISA_PaleWarriorSpider>0.04</ISA_PaleWarriorSpider>
+      
+      <!-- Pale Spelopede -->
+      <ISA_PaleSpelopede>0.04</ISA_PaleSpelopede>
+      <!-- <ISA_PaleSilkSpelopede>0.04</ISA_PaleSilkSpelopede> -->
+      <!-- <ISA_PaleHunterSpelopede>0.04</ISA_PaleHunterSpelopede> -->
+    </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="SeaIce"]/wildAnimals</xpath>
+		<value>
+			<!-- Pale Tunneler-->
+			<ISA_PaleTunneler>0.04</ISA_PaleTunneler>
+
+      <!-- Pale Scarabs -->
+			<ISA_PaleHunterScarab>0.04</ISA_PaleHunterScarab>
+      <ISA_PaleMegascarab>0.04</ISA_PaleMegascarab>
+      <!-- <ISA_PaleAcidScarab>0.04</ISA_PaleAcidScarab> -->
+
+      <!-- Pale Megaspider -->
+      <ISA_PaleMegaspider>0.04</ISA_PaleMegaspider>
+      <!-- <ISA_PaleNurserySpider>0.04</ISA_PaleNurserySpider> -->
+      <!-- <ISA_PaleAcidSpider>0.04</ISA_PaleAcidSpider> -->
+      <ISA_PaleWarriorSpider>0.04</ISA_PaleWarriorSpider>
+      
+      <!-- Pale Spelopede -->
+      <ISA_PaleSpelopede>0.04</ISA_PaleSpelopede>
+      <!-- <ISA_PaleSilkSpelopede>0.04</ISA_PaleSilkSpelopede> -->
+      <!-- <ISA_PaleHunterSpelopede>0.04</ISA_PaleHunterSpelopede> -->
+    </value>
+	</Operation>	
+
+</Patch>
