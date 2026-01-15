@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <FactionDef ParentName="FactionBase">
@@ -66,4 +66,4 @@
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>1000</configurationListOrderPriority>
   </FactionDef>
-</Defs>
+</Defs>  -->
