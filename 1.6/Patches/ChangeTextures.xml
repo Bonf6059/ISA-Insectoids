@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Replace Vanilla Insctoids texture -->
+	
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Megascarab"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Animals/Megascarab/Megascarab</texPath>
+        </value>
+  </Operation>
+
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Spelopede"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Animals/Spelopede/Spelopede</texPath>
+        </value>
+  </Operation>
+
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Megaspider"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Animals/Megaspider/Megaspider</texPath>
+        </value>
+  </Operation>
+
+</Patch>
