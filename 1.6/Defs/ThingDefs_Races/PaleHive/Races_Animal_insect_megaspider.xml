@@ -510,7 +510,7 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>PaleWarriorSpider</defName>
+    <defName>ISA_PaleWarriorSpider</defName>
     <label>pale warrior spider</label>
     <race>ISA_PaleWarriorSpider</race>
     <combatPower>150</combatPower>
