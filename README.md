@@ -8,5 +8,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+09/02/2026
+- Added normal insectoids chitin texture
+
 18/12/2025
 - Created repository
