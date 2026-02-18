@@ -8,7 +8,7 @@
     <label>Chitin</label>
     <description>a metallic material obtained from insectoids</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Steel</texPath>
+      <texPath>Resources/InsectoidChitin</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <useHitPoints>false</useHitPoints>
@@ -62,7 +62,8 @@
   <label>insectoid egg</label>
   <description>Eggs layed by the Queen</description>
   <graphicData>
-    <color>(173,255,47)</color>
+    <texPath>Resources/InsectoidEggs</texPath>
+    <graphicClass>Graphic_StackCount</graphicClass>
   </graphicData>
   <statBases>
     <MarketValue>7.0</MarketValue>
