@@ -3,13 +3,13 @@
   
  <!-- Chitin -->
 
-    <ThingDef ParentName="ResourceBase">
+    <ThingDef ParentName="ResourceBase" Name="ISA_ChitinResource">
     <defName>ISA_Chitin</defName>
     <label>Chitin</label>
     <description>a metallic material obtained from insectoids</description>
     <graphicData>
       <texPath>Resources/InsectoidChitin</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
